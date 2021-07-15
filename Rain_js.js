@@ -63,7 +63,7 @@ function draw() {
     depth -= 2;
   }
   countPer = map(scrolbar.x, 50, 350, 0.01, 1);
-  scrolbar.show();
+  //scrolbar.show();
 }
 
 function mouseDragged() {
