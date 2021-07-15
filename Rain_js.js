@@ -173,16 +173,13 @@ class Scrolbar{
     point(50, height - 2*minDepth/6);
     stroke(255,255,0);
     point(50, height - minDepth/6);
-    
-    
-    
-    
+       
     noStroke();
     fill(0);
     textSize(25);
     textAlign(LEFT, CENTER);
     text("Amount of raindrops", 70, height - 4*minDepth/6);
-    text("Rising", 70, height - 2*minDepth/6);
-    text("Not rising",70, height - minDepth/6);   
+    text("Rising", 70, height - minDepth/6);
+    text("Not rising",70, height - 2*minDepth/6);   
   }
 }
